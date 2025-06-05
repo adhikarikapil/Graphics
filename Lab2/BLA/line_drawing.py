@@ -39,6 +39,6 @@ def draw_line(x1, y1, x2, y2):
     glColor3f(0, 1, 0)
     glBegin(GL_POINTS)
     for x, y in points:
-        glVertex2f(float(x), float(y))
+        glVertex2i(x, y)
     glEnd()
 
